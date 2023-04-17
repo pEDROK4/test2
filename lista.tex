@@ -1,0 +1,112 @@
+\documentclass[12pt,reqno]{article}
+\textwidth=14.5cm  \oddsidemargin=0.5cm
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{psfrag}
+\usepackage{mathrsfs}
+\usepackage{color}
+\usepackage{amsmath,amssymb}
+\font\de=cmssi12
+\font\dd=cmssi10
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[active]{srcltx}
+
+\numberwithin{equation}{section}
+
+\newcommand{\twopartdef}[4]
+{
+	\left\{
+		\begin{array}{ll}
+			#1 & \mbox{,  if } #2 \\
+			#3 & \mbox{, if } #4
+		\end{array}
+	\right.
+}
+
+
+\title{Introdu\c c\~ao \`a An\'alise no $\mathbb R^n$ \\ Prova $1$}
+%Partially hyperbolic diffeomorphims with Null Central Lyapunov exponents and non-compact %central leaves}
+\author{Prof.Gabriel Ponce \\ {\small IMECC- UNICAMP} }
+
+\date{}      
+                                    
+\begin{document}
+
+\begin{center}
+{\Large Matem\'atica IV  - Fun\c c\~oes de Vari\'aveis Complexas} \\
+\vspace{.2cm}
+{Prof. Gabriel Ponce}
+\end{center}
+
+\noindent  \textbf{RA (Leg\'ivel)} : 
+\quad 
+\vspace{.5cm}
+
+\begin{center}
+\vspace{0.5cm}
+\begin{tabular}{r|r|r|r|r|r|r|r|r|r}
+ 
+1 & 2 & 3 & 4 & 5 & Total \\ % Note a separação de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+ \quad  \quad &\quad  \quad &\quad  \quad&\quad  \quad&\quad  \quad &\quad  \quad 
+\end{tabular}
+\end{center}
+
+\noindent {\bf Observa\c c\~ao:} 
+\begin{itemize}
+\item[1)] Este simulado \'e formado atrav\'es de um banco de problemas selecionado pelo docente e n\~ao necessariamente tem rela\c c\~ao com formato, n\'ivel de dificuldade, ou qualquer outro aspecto das provas de MA044/Fun\c c\~oes de Vari\'avel Complexa na sua disciplina. Use este simulado apenas como uma forma adicional de estudo.
+\item[2)] N\~ao se esque\c ca de verificar as hip\'oteses dos teoremas necess\'arios antes de aplica-los.
+\item[3)] Justifique bem suas solu\c c\~oes.
+\end{itemize}
+
+
+
+\newpage
+
+\begin{center}
+{\Large Simulado de Matem\'atica IV  - Fun\c c\~oes de Vari\'aveis Complexas} \\
+\vspace{.2cm}
+{Prof. Gabriel Ponce}
+\end{center}
+
+\vspace{1cm}
+
+ \begin{enumerate}
+\item \begin{description} 
+\item[a)] (1.5) Seja $z=1+\sqrt{3}\cdot i$. 
+Determine  $z^{2019}$. \\
+{\small Obs: coloque o resultado final na forma $x+iy$.}
+
+
+\item[b)] (1.0) Sejam $a,b,c \in \mathbb C$ tais que:
+\[|c-a| = |c-b| = \frac{|a-b|}{2}.\]
+Prove que, para todo n\'umero complexo $z\in \mathbb C$ temos:
+\[|z-a| \cdot |z-b| \geq \left(|z-c| - \frac{|a-b|}{2} \right)^2\]
+
+\end{description}
+
+
+
+\item Prove que dois n\'umeros complexos n\~ao nulos $z_1$ e $z_2$ tem o mesmo m\'odulo se, e somente se, existem n\'umeros complexos $c_1$ e $c_2$ tais que $z_1 = c_1c_2$ e $z_2=c_1\overline{c_2}$.
+
+
+\item \begin{itemize}
+\item[a)] Use a f\'ormula binomial e a f\'ormula de Moivre para escrever
+\[\cos n\theta +i\operatorname{sen} n\theta = \sum_{k=0}^{n}\binom{n}{k}\cos^{n-k}\theta(i \operatorname{sen}\theta)^k, \]
+$n=0,1,2,...$.
+Defina o inteiro $m$ da seguinte forma: $m=n/2$ se $n$ \'e par e $m=(n-1)/2$ caso $n$ seja \'impar. Mostre que
+\[\cos n\theta = \sum_{k=0}^{m}\binom{n}{2k}\cos^{n-2k}\theta \cdot (-1)^k\cdot \operatorname{sen}^{2k}\theta,\]
+$n=0,1,2,...$.
+
+\item[b)] Escreva $x= \cos \theta$ na somat\'oria do final da parte $(a)$. Mostre que fazendo essa substitui\c c\~ao, $\cos n \theta$ vira um polin\^omio em $x$:
+\[T_n(x) = \sum_{k=0}^{m}\binom{n}{2k}x^{n-2k}(1-x^2)^{k},\]
+$n=0,1,2,...$. 
+\end{itemize}
+
+
+
+
+\end{enumerate}
+
+ \end{document}

@@ -1,0 +1,73 @@
+\documentclass[12pt,reqno]{article}
+\textwidth=14.5cm  \oddsidemargin=0.5cm
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{psfrag}
+\usepackage{mathrsfs}
+\usepackage{color}
+\usepackage{amsmath,amssymb}
+\font\de=cmssi12
+\font\dd=cmssi10
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[active]{srcltx}
+
+\numberwithin{equation}{section}
+
+\newcommand{\twopartdef}[4]
+{
+	\left\{
+		\begin{array}{ll}
+			#1 & \mbox{,  if } #2 \\
+			#3 & \mbox{, if } #4
+		\end{array}
+	\right.
+}
+
+
+\title{Introdu\c c\~ao \`a An\'alise no $\mathbb R^n$ \\ Prova $1$}
+%Partially hyperbolic diffeomorphims with Null Central Lyapunov exponents and non-compact %central leaves}
+\author{Prof.Gabriel Ponce \\ {\small IMECC- UNICAMP} }
+
+\date{}      
+                                    
+\begin{document}
+
+\begin{center}
+{\Large Matem\'atica IV  - Fun\c c\~oes de Vari\'aveis Complexas} \\
+\vspace{.2cm}
+{Prof. Gabriel Ponce}
+\end{center}
+
+\noindent  \textbf{RA (Leg\'ivel)} : 
+\quad 
+\vspace{.5cm}
+
+\begin{center}
+\vspace{0.5cm}
+\begin{tabular}{r|r|r|r|r|r|r|r|r|r}
+ 
+1 & 2 & 3 & 4 & 5 & Total \\ % Note a separação de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+ \quad  \quad &\quad  \quad &\quad  \quad&\quad  \quad&\quad  \quad &\quad  \quad 
+\end{tabular}
+\end{center}
+
+\noindent {\bf Observa\c c\~ao:} 
+\begin{itemize}
+\item[1)] Este simulado \'e formado atrav\'es de um banco de problemas selecionado pelo docente e n\~ao necessariamente tem rela\c c\~ao com formato, n\'ivel de dificuldade, ou qualquer outro aspecto das provas de MA044/Fun\c c\~oes de Vari\'avel Complexa na sua disciplina. Use este simulado apenas como uma forma adicional de estudo.
+\item[2)] N\~ao se esque\c ca de verificar as hip\'oteses dos teoremas necess\'arios antes de aplica-los.
+\item[3)] Justifique bem suas solu\c c\~oes.
+\end{itemize}
+
+
+
+\newpage
+
+\begin{center}
+{\Large Simulado de Matem\'atica IV  - Fun\c c\~oes de Vari\'aveis Complexas} \\
+\vspace{.2cm}
+{Prof. Gabriel Ponce}
+\end{center}
+
+\vspace{1cm}
